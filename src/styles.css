@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+  background-color: #1F1F1F !important;
+  font-family: sans-serif;
+  color: white !important;
+}
+
+.btn-black{
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.4rem;
+  background: #0D0D0D;
+  color: #555555;
+}
+
+.btn-black:hover{
+  background: #555555;
+  color: #0D0D0D;
+  box-shadow: 0.2rem 0.8rem 1.6rem #0D0D0D;
+}
+
+.btn-black:disabled{
+  background: #555555;
+  color: #0D0D0D;
+  cursor: default;
+  box-shadow: none !important;
+}
+
+.btn-black:focus{
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem rgba(40, 40, 40, .8);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

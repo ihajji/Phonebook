@@ -1,0 +1,7 @@
+<div class="contact" (click)="onEditContact(contact)">
+  <div class="contactImage"></div>
+  <div class="contactDescription">
+    <span class="contactName">{{contact.firstname +' '+ contact.lastname | limitStrLength: 15}}</span>
+    <span class="contactNumber">{{contact.phoneNumber  | limitStrLength: 20}}</span>
+  </div>
+</div>

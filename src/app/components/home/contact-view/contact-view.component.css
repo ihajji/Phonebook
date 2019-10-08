@@ -1,0 +1,29 @@
+.contact{
+  display: flex;
+  justify-content: flex-start;
+  width: 16em;
+  margin: 1rem 1rem 1rem 1rem;
+  cursor: pointer;
+}
+
+.contactDescription{
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.contactImage{
+  width: 4rem;
+  height: 4rem;
+  background: #0D0D0D;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.contactNumber{
+  color: #555555 !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+}

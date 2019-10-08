@@ -1,0 +1,41 @@
+.home-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 4em;
+}
+
+.new-contact{
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.search {
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  max-width: 20em;
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow 200ms;
+  background: #0D0D0D;
+  color: #555555;
+}
+
+.search::placeholder {
+  color: #555555;
+}
+
+.search:focus{
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem rgba(40, 40, 40, .8);
+}
+
+.contact-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
